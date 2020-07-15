@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   root 'home#index'
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
-      resources :dashboard, only: :index
+      resources :dashboard, only: [:index]
+      resources :categories, only: [:index]
     end
   end
 end
