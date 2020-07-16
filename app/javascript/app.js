@@ -5,6 +5,7 @@ import 'app.scss'
 import Routes from './routes'
 import { BrowserRouter } from 'react-router-dom'
 import Menu from './components/common/menu'
+import NavbarFooter from './components/common/navbar_footer'
 
 const App = () => {
   return (
