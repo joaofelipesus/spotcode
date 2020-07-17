@@ -1,4 +1,4 @@
-json.recent_albuns @recent_albunseach do |album|
+json.recent_albums @recent_albunseach do |album|
   json.id album.id
   json.title album.title
   json.artist_name album.artist.name
